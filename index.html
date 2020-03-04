@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <div class="main-wrapper">
+    <div class="main-wrapper bg-secondary">
         <div class="navigation container d-flex align-items-center">
             <div class="navigation__logo mr-auto p-2">Logo</div>
             <div class="navigation__options p-2">
@@ -46,17 +46,18 @@
         </div>
         <header class="header d-flex flex-column align-items-center">
             <div class="header__text">Our Newsroom</div>
-            
-
-                <form action="#" class="search w-50">
-                    <input type="text" class="search__input" placeholder="Search articles">
-                    <button class="search__button">
-                        <i class="fas fa-search-plus"></i>
-                    </button>
-                </form>
 
 
-            </div>
+            <form action="#" class="search w-50 d-flex">
+                <button class="search__button">
+                    <i class="fas fa-search-plus search__icon"></i>
+                </button>
+                
+                <input type="text" class="search__input" placeholder="Search articles">
+                <button class="btn btn-primary buttonSearch" type="submit">Search</button>
+            </form>
+
+
             <div class="header__buttonsAndElemenets d-flex justify-content-center">
                 <h2 class="m-2">Popular Tags: </h2>
                 <a class="m-2 btn btn-outline-primary " href="#" role="button">Design</a>
@@ -71,10 +72,12 @@
 
 
 
+</div>
 
 
 
-    </div>
+
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -87,6 +90,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+
+
+    
 </body>
 
 </html>
