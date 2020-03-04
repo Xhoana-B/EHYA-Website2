@@ -1,0 +1,22 @@
+{
+  "name": "ehya-website2",
+  "version": "1.0.0",
+  "description": "Landing page for the EHYA",
+  "main": "index.js",
+  "scripts": {
+  "compile:sass":"node-sass sass/main.scss css/styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xhoana-B/EHYA-Website2.git"
+  },
+  "author": "Xhoana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xhoana-B/EHYA-Website2/issues"
+  },
+  "homepage": "https://github.com/Xhoana-B/EHYA-Website2#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
