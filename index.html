@@ -18,15 +18,52 @@
 
 <body>
     <div class="main-wrapper">
-        <div class="navigation d-flex">
-            <div class="navigation__logo">Logo</div>
-            <div class="navigation__options">Option</div>
-            <div class="navigation__button">Btn</div>
+        <div class="navigation container d-flex align-items-center">
+            <div class="navigation__logo mr-auto p-2">Logo</div>
+            <div class="navigation__options p-2">
+
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Landings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Docs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Help</a>
+                    </li>
+                </ul>
+
+
+            </div>
+            <div class="navigation__button p-2  btn btn-outline-primary">Btn</div>
         </div>
-        <header class="header">
-            <div class="header__text">Teksti</div>
-            <div class="header__form"> forma</div>
-            <div class="header__buttonsAndElemenets">Butoni dhe Teksti</div>
+        <header class="header d-flex flex-column align-items-center">
+            <div class="header__text">Our Newsroom</div>
+            
+
+                <form action="#" class="search w-50">
+                    <input type="text" class="search__input" placeholder="Search articles">
+                    <button class="search__button">
+                        <i class="fas fa-search-plus"></i>
+                    </button>
+                </form>
+
+
+            </div>
+            <div class="header__buttonsAndElemenets d-flex justify-content-center">
+                <h2 class="m-2">Popular Tags: </h2>
+                <a class="m-2 btn btn-outline-primary " href="#" role="button">Design</a>
+                <a class="m-2 btn btn-outline-primary " href="#" role="button">User Experience</a>
+                <a class="m-2 btn btn-outline-primary" href="#" role="button">User Interfaces</a>
+
+            </div>
         </header>
 
 
