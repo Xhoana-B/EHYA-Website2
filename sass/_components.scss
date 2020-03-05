@@ -23,15 +23,13 @@
     border-radius: 10px;
     width: 100%;
     transition: all 0.2s;
-    margin-right: -4.90rem;
+    margin-right: -4.9rem;
 
     &:focus {
       outline: none;
       width: 100%;
       background-color: $color-grey-light-3;
     }
-
-   
   }
 
   &__input:focus + &__button {
@@ -52,5 +50,9 @@
     width: 2rem;
     fill: $color-grey-dark-3;
   }
-
 }
+
+.nav-link {
+  color: $color-white;
+}
+
